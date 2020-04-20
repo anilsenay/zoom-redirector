@@ -61,7 +61,8 @@ const zoom = {
 
 var today = new Date();
 var date = today.getMonth()+1 + "/" + today.getDate() + "/" + today.getFullYear();
-var time = today.getHours() + "" + today.getMinutes();
+var time = today.getHours() + "";
+time += (today.getMinutes()+"").length === 1 ? "0"+today.getMinutes() : today.getMinutes();
 
 function getDayName(dateStr, locale)
 {
