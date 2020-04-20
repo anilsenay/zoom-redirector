@@ -11,6 +11,10 @@ const zoom = {
         {
             endTime: 1220,
             url: "https://zoom.us/j/625198789?pwd=aGEwZUczSGROdHVUc0RpdDFDSzdxdz09"
+        },
+        {
+            endTime: 1450,
+            url: "https://zoom.us/j/2551333127"
         }
     ],
     tuesday: [
