@@ -79,7 +79,7 @@ var day = getDayName(date, "en-US").toLocaleLowerCase();
 var url = null;
 
 zoom[day].map(item => {
-    if(item.endTime - parseInt(time) >0 && url === null){
+    if(item.endTime - parseInt(time) >0 && item.endTime - parseInt(time) <= 100 && url === null){
         console.log("şu anki dersin: " + item.url)
         url = item.url;
     }
