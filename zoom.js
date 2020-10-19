@@ -137,7 +137,7 @@ else if (url !== null) {
     document.getElementsByTagName('body')[0].insertBefore(button, document.getElementsByClassName('container')[0]);
     button.onclick = function(){
         countdown = countdown ? null : 3;
-        document.getElementsByTagName('button')[0].innerText = countdown ? "Stop" : "Resume" + "Redirecting";
+        document.getElementsByTagName('button')[0].innerText = (countdown ? "Stop" : "Resume") + "Redirecting";
     };
     setInterval(() => {
         if(countdown === null) {
