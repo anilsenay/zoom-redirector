@@ -76,3 +76,14 @@ footer h3 {
 a{
   color: white;
 }
+
+button {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #8c6b48;
+    padding: 10px;
+    border-radius: 4px;
+    color: #8c6b48;
+    font-weight: bold;
+    cursor: pointer;
+}
