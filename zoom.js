@@ -126,7 +126,7 @@ zoom[day].map(item => {
 })
 
 let countdown = 5;
-const warningText = url ? "You are directing in " + countdown + " sec... Please wait..." : "You have not any lesson right now";
+let warningText = url ? "You are directing in " + countdown + " sec... Please wait..." : "You have not any lesson right now";
 
 document.getElementById("mainText").innerText = warningText
 
@@ -134,6 +134,7 @@ if(url !== null && window.location.href.includes("?auto-redirect")) window.locat
 else if (url !== null) {
     setInterval(() => {
         countdown--;
+        document.getElementById("mainText").innerText = "You are directing in " + countdown + " sec... Please wait..."
         countdown <= 0 && window.location.replace(url);
     }, 1000)
 }
