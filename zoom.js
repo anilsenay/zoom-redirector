@@ -135,5 +135,5 @@ else if (url !== null) {
     setInterval(() => {
         countdown--;
         countdown <= 0 && window.location.replace(url);
-    }
+    }, 1000)
 }
