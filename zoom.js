@@ -139,7 +139,7 @@ else if (url !== null) {
         countdown = countdown ? null : 3;
     };
     setInterval(() => {
-        if(coundown === null) document.getElementById("mainText").innerText = "Redirecting Stopped!"
+        if(countdown === null) document.getElementById("mainText").innerText = "Redirecting Stopped!"
         else {
             countdown--;
             document.getElementById("mainText").innerText = "You are directing in " + countdown + " sec... Please wait..."
