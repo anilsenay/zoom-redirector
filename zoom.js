@@ -126,7 +126,7 @@ zoom[day].map(item => {
 })
 
 let countdown = 5;
-const warningText = url ? "You are directing in " + countdown + " sec... Please wait..." : "You have not any lesson right now" : 
+const warningText = url ? "You are directing in " + countdown + " sec... Please wait..." : "You have not any lesson right now";
 
 document.getElementById("mainText").innerText = warningText
 
