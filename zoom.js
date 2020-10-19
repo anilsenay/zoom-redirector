@@ -16,11 +16,11 @@ const zoom = {
     tuesday: [
         {
             endTime: 950,
-            url: ""
+            url: "https://zoom.us/j/2319763386?pwd=N0d0eEFwTXlib3hseitnNUZoVWhqdz09"
         },
         {
             endTime: 1050,
-            url: ""
+            url: "https://zoom.us/j/2319763386?pwd=N0d0eEFwTXlib3hseitnNUZoVWhqdz09"
         },
         {
             endTime: 1150,
@@ -49,6 +49,14 @@ const zoom = {
             url: "https://zoom.us/j/2319763386?pwd=N0d0eEFwTXlib3hseitnNUZoVWhqdz09"
         },
         {
+            endTime: 1350,
+            url: "https://zoom.us/j/95444347430?pwd=WjZOQU43MG5jMW8zSnkvT1dSd3lUUT09"
+        },        
+        {
+            endTime: 1450,
+            url: "https://zoom.us/j/95444347430?pwd=WjZOQU43MG5jMW8zSnkvT1dSd3lUUT09"
+        },       
+        {
             endTime: 1550,
             url: ""
         },
@@ -60,7 +68,7 @@ const zoom = {
     thursday: [
         {
             endTime: 950,
-            url: ""
+            url: "https://zoom.us/j/2319763386?pwd=N0d0eEFwTXlib3hseitnNUZoVWhqdz09"
         },
         {
             endTime: 1050,
@@ -72,11 +80,11 @@ const zoom = {
         },
         {
             endTime: 1550,
-            url: ""
+            url: "https://zoom.us/j/97675775681?pwd=cWo5UkxyMmZqZ0FSSStqQXJGRU0yZz09"
         },
         {
             endTime: 1650,
-            url: ""
+            url: "https://zoom.us/j/97675775681?pwd=cWo5UkxyMmZqZ0FSSStqQXJGRU0yZz09"
         }
     ],
     friday: [
