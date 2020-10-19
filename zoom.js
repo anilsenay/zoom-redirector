@@ -134,7 +134,7 @@ if(url !== null && window.location.href.includes("?auto-redirect")) window.locat
 else if (url !== null) {
     var button = document.createElement('BUTTON');
     button.appendChild(document.createTextNode("Stop Redirecting"));
-    document.body.insertAfter(button, document.body.firstChild);
+    document.getElementsByTagName('body')[0].insertBefore(button, document.getElementsByClassName('container')[0]);
     button.onclick = function(){
         countdown = countdown ? null : 3;
     };
