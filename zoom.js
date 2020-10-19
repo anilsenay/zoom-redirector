@@ -85,8 +85,28 @@ zoom[day].map(item => {
     }
 })
 
-const warningText = (url === null) ? "You have not any lesson right now" : "You are directing now... Please wait..."
+let countdown = 3;
+let warningText = url ? "You are directing in " + countdown + " sec... Please wait..." : "You have not any lesson right now";
 
 document.getElementById("mainText").innerText = warningText
 
-if(url !== null) window.location.replace(url);
+if(url !== null && window.location.href.includes("?auto-redirect")) window.location.replace(url);
+else if (url !== null) {
+    var button = document.createElement('BUTTON');
+    button.appendChild(document.createTextNode("Stop Redirecting"));
+    document.getElementsByTagName('body')[0].insertBefore(button, document.getElementsByClassName('container')[0]);
+    button.onclick = function(){
+        countdown = countdown ? null : 3;
+        document.getElementsByTagName('button')[0].innerText = (countdown ? "Stop" : "Resume") + " Redirecting";
+    };
+    setInterval(() => {
+        if(countdown === null) {
+            document.getElementById("mainText").innerText = "Redirecting Stopped!"
+        }
+        else {
+            countdown--;
+            document.getElementById("mainText").innerText = "You are directing in " + countdown + " sec... Please wait..."
+            countdown <= 0 && window.location.replace(url);
+        }
+    }, 1000)
+}
