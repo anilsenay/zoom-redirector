@@ -36,11 +36,11 @@ const zoom = {
         },
         {
             endTime: 1550,
-            url: ""
+            url: "https://zoom.us/j/94369140493?pwd=ZEp1ZUVrOVpNWXBadEo0SFlrZm5CQT09"
         },
         {
             endTime: 1650,
-            url: ""
+            url: "https://zoom.us/j/94369140493?pwd=ZEp1ZUVrOVpNWXBadEo0SFlrZm5CQT09"
         }
     ],
     wednesday: [
@@ -88,11 +88,11 @@ const zoom = {
         },
         {
             endTime: 1350,
-            url: ""
+            url: "https://zoom.us/j/94369140493?pwd=ZEp1ZUVrOVpNWXBadEo0SFlrZm5CQT09"
         },
         {
             endTime: 1450,
-            url: ""
+            url: "https://zoom.us/j/94369140493?pwd=ZEp1ZUVrOVpNWXBadEo0SFlrZm5CQT09"
         },
         {
             endTime: 1550,
