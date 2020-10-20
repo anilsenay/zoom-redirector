@@ -24,7 +24,7 @@ const zoom = {
         },
         {
             endTime: 1150,
-            url: "https://zoom.us/meeting/register/tJAod-uoqTgiHNNuEzs_PIPwu1U4sLRCE-9D"
+            url: "https://zoom.us/j/97056655049?pwd=bEprWkIrb1diMmU1T1IxdVNTcFBOQT09"
         },
         {
             endTime: 1350,
