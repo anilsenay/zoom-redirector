@@ -28,11 +28,11 @@ const zoom = {
         },
         {
             endTime: 1350,
-            url: ""
+            url: "https://zoom.us/j/92418422580?pwd=djRqYlVZMHZXY2ZFdmlyNkhEM2VBZz09"
         },
         {
             endTime: 1450,
-            url: ""
+            url: "https://zoom.us/j/92418422580?pwd=djRqYlVZMHZXY2ZFdmlyNkhEM2VBZz09"
         },
         {
             endTime: 1550,
@@ -66,11 +66,11 @@ const zoom = {
         },       
         {
             endTime: 1550,
-            url: ""
+            url: "https://zoom.us/j/92418422580?pwd=djRqYlVZMHZXY2ZFdmlyNkhEM2VBZz09"
         },
         {
             endTime: 1650,
-            url: ""
+            url: "https://zoom.us/j/92418422580?pwd=djRqYlVZMHZXY2ZFdmlyNkhEM2VBZz09"
         }
     ],
     thursday: [
