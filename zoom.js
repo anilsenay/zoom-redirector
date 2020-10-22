@@ -24,15 +24,15 @@ const zoom = {
         },
         {
             endTime: 1150,
-            url: "https://zoom.us/j/97056655049?pwd=bEprWkIrb1diMmU1T1IxdVNTcFBOQT09"
+            url: "https://zoom.us/w/97056655049?tk=VWb3GPKBDZ5E0KAyiYXNXfsxkBFZsOW6cBPTQU8_c-s.DQIAAAAWmQcGyRZUTlgzaUo5M1JfLWxzN3lMVHBxaWR3AAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=bEprWkIrb1diMmU1T1IxdVNTcFBOQT09"
         },
         {
             endTime: 1350,
-            url: ""
+            url: "https://zoom.us/j/92418422580?pwd=djRqYlVZMHZXY2ZFdmlyNkhEM2VBZz09"
         },
         {
             endTime: 1450,
-            url: ""
+            url: "https://zoom.us/j/92418422580?pwd=djRqYlVZMHZXY2ZFdmlyNkhEM2VBZz09"
         },
         {
             endTime: 1550,
@@ -66,11 +66,11 @@ const zoom = {
         },       
         {
             endTime: 1550,
-            url: ""
+            url: "https://zoom.us/j/92418422580?pwd=djRqYlVZMHZXY2ZFdmlyNkhEM2VBZz09"
         },
         {
             endTime: 1650,
-            url: ""
+            url: "https://zoom.us/j/92418422580?pwd=djRqYlVZMHZXY2ZFdmlyNkhEM2VBZz09"
         }
     ],
     thursday: [
@@ -80,11 +80,11 @@ const zoom = {
         },
         {
             endTime: 1050,
-            url: ""
+            url: "zoommtg://zoom.us/join?confno=93113183904&pwd=283422"
         },
         {
             endTime: 1150,
-            url: ""
+            url: "zoommtg://zoom.us/join?confno=93113183904&pwd=283422"
         },
         {
             endTime: 1350,
@@ -106,7 +106,7 @@ const zoom = {
     friday: [
         {
             endTime: 950,
-            url: ""
+            url: "zoommtg://zoom.us/join?confno=95412046456&pwd=857198"
         },
         {
             endTime: 1050,
