@@ -80,11 +80,11 @@ const zoom = {
         },
         {
             endTime: 1050,
-            url: ""
+            url: "zoommtg://zoom.us/join?confno=93113183904&pwd=283422"
         },
         {
             endTime: 1150,
-            url: ""
+            url: "zoommtg://zoom.us/join?confno=93113183904&pwd=283422"
         },
         {
             endTime: 1350,
@@ -106,7 +106,7 @@ const zoom = {
     friday: [
         {
             endTime: 950,
-            url: ""
+            url: "zoommtg://zoom.us/join?confno=95412046456&pwd=857198"
         },
         {
             endTime: 1050,
